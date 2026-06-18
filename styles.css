@@ -310,8 +310,8 @@ h3 {
 
 h1 {
   max-width: 780px;
-  font-size: 7.25rem;
-  line-height: 0.9;
+  font-size: 5rem;
+  line-height: 0.95;
 }
 
 h2 {
@@ -475,7 +475,7 @@ h3 {
 .avatar-card {
   position: relative;
   display: grid;
-  width: min(100%, 456px);
+  width: min(100%, 560px);
   margin: 10px auto 0;
   place-items: center;
   border-radius: var(--radius-xl);
@@ -496,11 +496,16 @@ h3 {
 }
 
 .avatar-card img {
-  width: 100%;
-  transform: translateZ(50px) scale(1.08);
+  width: 120%;
+  transform: translateZ(50px) scale(1.2);
   filter: drop-shadow(0 30px 45px rgba(0, 0, 0, 0.38));
 }
-
+.avatar-card {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
 .scanline {
   position: absolute;
   inset: 0;
