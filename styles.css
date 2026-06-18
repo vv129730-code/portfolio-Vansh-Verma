@@ -475,7 +475,7 @@ h3 {
 .avatar-card {
   position: relative;
   display: grid;
-  width: min(100%, 560px);
+  width: min(100%, 700px);
   margin: 10px auto 0;
   place-items: center;
   border-radius: var(--radius-xl);
