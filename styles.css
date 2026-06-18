@@ -724,102 +724,54 @@ h3 {
   backdrop-filter: blur(12px);
 }
 
-.preview-social {
-  background:
-    linear-gradient(135deg, rgba(79, 70, 229, 0.82), transparent 54%),
-    linear-gradient(25deg, rgba(6, 182, 212, 0.68), transparent 46%),
-    #101827;
+.preview-social,
+.preview-poster,
+.preview-brand,
+.preview-restaurant,
+.preview-print,
+.preview-product,
+.preview-portfolio,
+.preview-resto-web,
+.preview-landing {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.preview-social::after {
-  box-shadow: -38px -84px 0 -20px rgba(255, 255, 255, 0.16), 48px -132px 0 -16px rgba(255, 255, 255, 0.1);
+.preview-social {
+  background-image: url("stock3.jpg");
 }
 
 .preview-poster {
-  background:
-    linear-gradient(160deg, rgba(6, 182, 212, 0.76), transparent 50%),
-    linear-gradient(28deg, rgba(139, 92, 246, 0.82), transparent 58%),
-    #080b1a;
-}
-
-.preview-poster::after {
-  height: 150px;
-  border-radius: 24px 24px 8px 8px;
+  background-image: url("stock9.jpg");
 }
 
 .preview-brand {
-  background:
-    conic-gradient(from 180deg at 50% 45%, rgba(79, 70, 229, 0.78), rgba(6, 182, 212, 0.55), rgba(139, 92, 246, 0.8), rgba(79, 70, 229, 0.78)),
-    #0b1120;
-}
-
-.preview-brand::after {
-  inset: 50% auto auto 50%;
-  width: 112px;
-  height: 112px;
-  border-radius: 32px;
-  transform: translate(-50%, -50%) rotate(12deg);
+  background-image: url("stock6.jpg");
 }
 
 .preview-restaurant {
-  background:
-    linear-gradient(145deg, rgba(239, 68, 68, 0.62), transparent 50%),
-    linear-gradient(30deg, rgba(6, 182, 212, 0.55), transparent 56%),
-    #101827;
-}
-
-.preview-restaurant::after {
-  height: 120px;
+  background-image: url("stock8.jpg");
 }
 
 .preview-print {
-  background:
-    linear-gradient(150deg, rgba(255, 255, 255, 0.2), transparent 42%),
-    linear-gradient(35deg, rgba(79, 70, 229, 0.82), rgba(6, 182, 212, 0.46)),
-    #111827;
+  background-image: url("stock5.jpg");
 }
 
 .preview-product {
-  background:
-    radial-gradient(220px 180px at 60% 40%, rgba(255, 255, 255, 0.34), transparent 62%),
-    linear-gradient(135deg, rgba(139, 92, 246, 0.8), rgba(6, 182, 212, 0.34)),
-    #0b1120;
-}
-
-.preview-product::after {
-  inset: 62px 54px auto auto;
-  width: 128px;
-  height: 180px;
-  border-radius: 30px;
+  background-image: url("stock2.jpg");
 }
 
 .preview-portfolio {
-  background:
-    linear-gradient(135deg, rgba(79, 70, 229, 0.68), transparent 48%),
-    linear-gradient(35deg, rgba(6, 182, 212, 0.52), transparent 58%),
-    #090e1e;
-}
-
-.preview-portfolio::after,
-.preview-resto-web::after,
-.preview-landing::after {
-  inset: 36px 22px auto 22px;
-  height: 150px;
-  border-radius: 18px;
+  background-image: url("stock1.jpg");
 }
 
 .preview-resto-web {
-  background:
-    linear-gradient(150deg, rgba(6, 182, 212, 0.5), transparent 44%),
-    linear-gradient(20deg, rgba(245, 158, 11, 0.48), transparent 55%),
-    #0b1120;
+  background-image: url("stock4.jpg");
 }
 
 .preview-landing {
-  background:
-    linear-gradient(130deg, rgba(139, 92, 246, 0.78), transparent 45%),
-    linear-gradient(24deg, rgba(79, 70, 229, 0.72), rgba(6, 182, 212, 0.42)),
-    #0b1120;
+  background-image: url("stock7.jpg");
 }
 
 .service-card ul {
